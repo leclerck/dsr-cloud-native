@@ -33,7 +33,7 @@ public class PdfTicketService {
 				contentStream.beginText();
 				contentStream.setFont(titleFont, 20);
 				contentStream.newLineAtOffset(50, y);
-				contentStream.showText("Event Ticket");
+				contentStream.showText("E-Ticket");
 				contentStream.endText();
 
 				y -= 50;
